@@ -3,12 +3,13 @@
  - 2 leds (connected to pins 10 and 12)
  - 2 220 ohms resistors
 */
-void blink();
 
-byte button1=4;
-byte button2=2;
-byte led1=12;
-byte led2=10;
+#define button1 4
+#define button2 2
+#define led1 12
+#define led2 10
+
+void blink();
 
 void setup(){
   pinMode(button1,INPUT_PULLUP);
