@@ -1,3 +1,10 @@
+/*
+*1 IR sensor
+*1 Ultrasonic sensor HC-SR04
+*1 LCD Screen 16x2
+*1 Potentiometer
+*/
+
 #include <LiquidCrystal.h>
 
 #define trigPin 13

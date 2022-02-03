@@ -38,7 +38,7 @@ ___
 
 ---
 
-### Example # 4: Motors and IR control
+### Example # 4: Motors and IR control (in preparation)
 
 ___
 
