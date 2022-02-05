@@ -1,6 +1,6 @@
 # Arduino_for_electronics2
 
-## Arduino examples for the Electronics II course in FF-UH
+## Arduino examples for the Electronics II course
 
 ---
 
@@ -38,12 +38,12 @@ ___
 
 ---
 
-### Example # 4: Motors and IR control (in preparation)
+### Example # 4: DC Motors and speed control
 
 ___
 
-* Types of motors: DC motors, Steper motors, Servos ...
+* Principles of a DC motor
 
 * Power considerations for motors
 
-* Using a IR remote control
+* Speed control through ilumination
