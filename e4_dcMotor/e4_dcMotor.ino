@@ -1,9 +1,16 @@
+/*
+*1 DC motor
+*1 Motor driver L293D
+*1 Photoresistance
+*1 External power supply
+*/
+
 #define speedPin 6
 #define dirPin1 7
 #define dirPin2 5
 
 int speedMotor = 180;
-decode_results results;
+
 
 void setup() {
   pinMode(speedPin,OUTPUT);
@@ -14,8 +21,6 @@ void setup() {
   digitalWrite(dirPin1,0);
   digitalWrite(dirPin2,1);
   analogWrite(speedPin, speedMotor);
-
-
 }
 
 void loop() {
